@@ -1,8 +1,5 @@
 # Linear Algebra App (In Progress)  
 
-## Demo Video: ...
-
-
 ## TODO: Desgin and Implement Function
 #### Done: CheckSpan, Check Linearly Independent, All in Comsubspace.m, Rows operations (Dswaprow, Dmulrow, Daddrow), RREF, Solve Unique Solutions.
 #### Not Done: Ploting stuff; Determinant stuff (CramRule, FindDet); MLX Files: Span + Linear Trans + Subspace and Plot, EigenValue and EigenVector.
