@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions for MATLAB App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        li h3 {
+            margin: 0;
+            padding-bottom: 10px;
+            font-size: 18px;
+        }
+        li p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Instructions for Using MATLAB App</h1>
+    <ul>
+        <li>
+            <h3>Generate Matrix</h3>
+            <p>
+                - Input the number of rows and columns in the respective fields.<br>
+                - Click <strong>Generate Matrix</strong> to create a matrix filled with zeros.<br>
+                - You can manually input values into the matrix using the table.
+            </p>
+        </li>
+        <li>
+            <h3>RREF (Reduced Row Echelon Form)</h3>
+            <p>
+                - After generating the matrix, click <strong>RREF</strong> to compute the Reduced Row Echelon Form.<br>
+                - Ensure that the matrix is numeric and contains valid entries.
+            </p>
+        </li>
+        <li>
+            <h3>Solve Augmented Matrix</h3>
+            <p>
+                - Enter your matrix on the left and the vector b on the right.<br>
+                - Click <strong>Solve Augmented Matrix</strong> to solve the system of linear equations.<br>
+                - Ensure that the augmented matrix does not contain NaN values.
+            </p>
+        </li>
+        <li>
+            <h3>Check Span</h3>
+            <p>
+                - Input your matrix and vector b.<br>
+                - Click <strong>Check Span</strong> to check if the vector b is within the span of the matrix.<br>
+                - The result will appear in the Results field below.
+            </p>
+        </li>
+        <li>
+            <h3>Check Linearly Independent</h3>
+            <p>
+                - Input your matrix.<br>
+                - Click <strong>Check Linearly Independent</strong> to determine whether the set of vectors (columns) is linearly independent.
+            </p>
+        </li>
+        <li>
+            <h3>Find Row Space Basis</h3>
+            <p>
+                - Enter your matrix and click <strong>Find Row Space Basis</strong> to compute the basis of the row space.
+            </p>
+        </li>
+        <li>
+            <h3>Find Column Space Basis</h3>
+            <p>
+                - Enter your matrix and click <strong>Find Column Space Basis</strong> to compute the basis of the column space.
+            </p>
+        </li>
+        <li>
+            <h3>Plot Column Vectors</h3>
+            <p>
+                - Enter your matrix.<br>
+                - Click <strong>Plot Column Vectors</strong> to visualize the column vectors in 3D space.<br>
+                - Ensure that the matrix has valid 3D vectors.
+            </p>
+        </li>
+        <li>
+            <h3>Plot Single Vector</h3>
+            <p>
+                - Enter a single vector in the matrix or vector b field.<br>
+                - Click <strong>Plot Single Vector</strong> to visualize the vector in the 3D plot.
+            </p>
+        </li>
+        <li>
+            <h3>Find Null Space Basis</h3>
+            <p>
+                - Enter your matrix and click <strong>Find Null Space Basis</strong> to compute the basis of the null space.
+            </p>
+        </li>
+        <li>
+            <h3>Find Rank</h3>
+            <p>
+                - Enter your matrix and click <strong>Find Rank</strong> to compute the rank of the matrix.
+            </p>
+        </li>
+        <li>
+            <h3>Find Nullity</h3>
+            <p>
+                - Enter your matrix and click <strong>Find Nullity</strong> to compute the nullity of the matrix (dimension of the null space).
+            </p>
+        </li>
+        <li>
+            <h3>Swap Row</h3>
+            <p>
+                - Enter the indices of two rows in the <strong>RowSwap1</strong> and <strong>RowSwap2</strong> fields.<br>
+                - Click <strong>Swap Row</strong> to swap the two rows in the matrix.
+            </p>
+        </li>
+        <li>
+            <h3>Multiply Row</h3>
+            <p>
+                - Enter the index of the row to be multiplied and the scalar value in the respective fields.<br>
+                - Click <strong>Multiply Row</strong> to multiply the row by the scalar factor.
+            </p>
+        </li>
+        <li>
+            <h3>Add Multiple of Source Row to Destination Row</h3>
+            <p>
+                - Enter the source row, destination row, and the multiplier in the respective fields.<br>
+                - Click <strong>Add Multiple of Source Row to Destination Row</strong> to perform the row operation.
+            </p>
+        </li>
+        <li>
+            <h3>Determinant</h3>
+            <p>
+                - Enter a square matrix.<br>
+                - Click <strong>Determinant</strong> to compute the determinant of the matrix.<br>
+                - Ensure the matrix is square (same number of rows and columns).
+            </p>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
